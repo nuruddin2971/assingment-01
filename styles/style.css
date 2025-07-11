@@ -27,6 +27,7 @@
 .header{
     /* margin: 50px 150px; */
     background-image: url(../images/Assets/Hero-bg.png);
+    padding-top: 50px;
 }
 .nav-title{
     display: flex;
@@ -34,7 +35,7 @@
     margin: 0 150px;
 }
 .nav-logo{
-    /* font-size: 20px; */
+    font-size: 30px;
     /* font-weight: bold; */
 }
 .banner-title{
@@ -97,3 +98,51 @@ main div img{
     margin-bottom: 0;
 }
 
+/* Touch-section */
+.touch-section{
+    margin: 90px 150px 20px 150px;
+}
+.touch-title{
+    font-size: 70px;
+    font-weight: 700;
+}
+.touch-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.input{
+    border: none;
+    background-color: #faf1f1;
+    border-radius: 5px;
+    
+}
+/* footer */
+.footer-section{
+    margin: 100px 400px;
+}
+.footer{
+    text-align: center;  
+}
+.footer-title{
+    font-size: 70px;
+    color: rgba(78, 71, 255, 1);
+}
+.footer-description{
+    color: #8987A1;
+}
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #8987A1;
+    /* align-items: center; */
+    /* display: inline; */
+    /* display: block; */
+}
