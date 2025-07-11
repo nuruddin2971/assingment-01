@@ -1,0 +1,34 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* shared styles */
+.text-color{
+    color: #4E47FF;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+/* nav styles */
+.header{
+    margin-top: 50px;
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav-logo{
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+}
