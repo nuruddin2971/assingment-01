@@ -5,9 +5,13 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
 /* shared styles */
 .text-color{
     color: #4E47FF;
+}
+.dark-1{
+    color: rgba(37, 36, 50, 0.5)
 }
 
 .btn-primary{
@@ -19,9 +23,10 @@
     font-weight: bold;
     color: #FFFFFF;
 }
-/* nav styles */
+/* header, nav styles */
 .header{
-    margin-top: 50px;
+    /* margin: 50px 150px; */
+    background-image: url(../images/Assets/Hero-bg.png);
 }
 .nav-title{
     display: flex;
@@ -31,4 +36,40 @@
 .nav-logo{
     /* font-size: 20px; */
     /* font-weight: bold; */
+}
+.banner-title{
+    margin-top: 150px;
+    text-align: center;
+}
+.banner-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 260px;
+    margin-left: 260px;
+}
+.bottom{
+    margin-bottom: 150px;
+}
+
+/* main styles */
+/* action */
+
+.action{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 150px 250px;
+    gap: 200px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+}
+.action-description{
+    font-size: 24px;
+}
+
+main div img{
+    border-radius: 45px;
+    height: 320px;
+    width: 350px;
 }
