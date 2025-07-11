@@ -145,4 +145,33 @@ footer ul li a{
     /* align-items: center; */
     /* display: inline; */
     /* display: block; */
+}   
+
+/* What our users say section */
+.users-say-section{
+    text-align: center;
+}
+.users-say{
+    width: 15px;
+    height: 15px;
+    /* background-repeat: repeat-x; */
+}
+.users-say-content{
+    font-size: 40px;
+    font-weight: 700;
+}
+.users-items{
+    display: flex;
+}
+.users-say-title{
+
+}
+.users-img{
+    width: 40px;
+    height: 40px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
