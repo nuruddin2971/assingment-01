@@ -23,6 +23,11 @@
     font-weight: bold;
     color: #FFFFFF;
     height: 50px;
+    cursor: pointer;
+    
+}
+.btn-primary:hover{
+    background-color: chocolate;
 }
 /* header, nav styles */
 .header{
@@ -167,7 +172,7 @@ footer ul{
 }
 .users-items{
     display: flex;
-    margin: 150px;
+    margin: 100px 150px;
     gap: 20px;
 }
 .users-say-title{
