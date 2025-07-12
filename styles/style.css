@@ -22,6 +22,7 @@
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
+    height: 50px;
 }
 /* header, nav styles */
 .header{
@@ -115,7 +116,7 @@ main div img{
 }
 .input{
     border: none;
-    background-color: #faf1f1;
+    background-color: #dedbe1;
     border-radius: 5px;
     
 }
@@ -135,21 +136,24 @@ main div img{
 }
 footer ul li{
     list-style: none;
+    
+}
+footer ul a{
+    text-decoration: none;
+    color: #8987A1
 }
 
-footer ul li a{
-    text-decoration: none;
+footer ul{
     display: flex;
     justify-content: center;
-    color: #8987A1;
-    /* align-items: center; */
-    /* display: inline; */
-    /* display: block; */
+    align-items: center;
+    gap: 48px;
+    
 }   
 
 /* What our users say section */
 .users-say-section{
-    text-align: center;
+    /* text-align: center; */
 }
 .users-say{
     width: 15px;
@@ -157,11 +161,14 @@ footer ul li a{
     /* background-repeat: repeat-x; */
 }
 .users-say-content{
+    text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
 .users-items{
     display: flex;
+    margin: 150px;
+    gap: 20px;
 }
 .users-say-title{
 
@@ -174,4 +181,32 @@ footer ul li a{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.user-card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dedbe1;
+    border-radius: 15px;
+    padding: 25px 20px; 
+    /* align-items: center; */
+}
+.user-card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dedbe1;
+    border-radius: 15px;
+    padding: 25px 20px; 
+}
+.user-card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dedbe1;
+    border-radius: 15px;
+    padding: 25px 20px; 
+}
+.card-icon{
+
 }
